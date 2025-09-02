@@ -196,10 +196,6 @@ h2 {
     padding: 40px 20px;
 }
 
-/* .pcModal1 img:hover {
-    filter: saturate(150%) brightness(150%);
-} */
-
 .modalContent .modalExplanation {
     margin: 20px auto;
     text-align: left;
@@ -285,6 +281,12 @@ dd {
 }
 body.noScroll {
   overflow: hidden;
+}
+
+.map {
+    width: 225px;
+    margin: 25px auto 20px;
+    text-align: left;
 }
 
 
@@ -447,7 +449,6 @@ h3 {
 }
 
 .access {
-    height: 1864px;
     padding-top: 0;
 }
 
@@ -569,6 +570,11 @@ h4 {
 .modalContent li {
     font-size: 20px;
     line-height: 32px;
+}
+
+.mapArea {
+    display: flex;
+    margin-top: 250px;
 }
 
 }
