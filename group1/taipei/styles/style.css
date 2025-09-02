@@ -217,22 +217,6 @@ h4 {
     margin-bottom: 0px;
     font-weight: bold;
 }
-
-@keyframes bright {
-    50% {
-    filter: saturate(150%) brightness(150%);
-    }
-    100% {
-    filter: none;
-    }
-}
-
-.pcModal1 img {
-    animation-name: bright;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
 /* モーダルここまで */
 
 h3 {
@@ -281,12 +265,6 @@ dd {
 }
 body.noScroll {
   overflow: hidden;
-}
-
-.map {
-    width: 225px;
-    margin: 25px auto 20px;
-    text-align: left;
 }
 
 
@@ -449,6 +427,7 @@ h3 {
 }
 
 .access {
+    height: 1864px;
     padding-top: 0;
 }
 
@@ -544,7 +523,6 @@ dl dt {
 
 .pcModal {
     display: flex;
-    justify-content: center;
 }
 
 .pcModal1 {
@@ -570,11 +548,6 @@ h4 {
 .modalContent li {
     font-size: 20px;
     line-height: 32px;
-}
-
-.mapArea {
-    display: flex;
-    margin-top: 250px;
 }
 
 }
